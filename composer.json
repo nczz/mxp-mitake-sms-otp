@@ -1,0 +1,5 @@
+{
+    "require": {
+        "pedrosancao/php-otp": "^1.1"
+    }
+}

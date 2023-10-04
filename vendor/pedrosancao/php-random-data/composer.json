@@ -1,0 +1,21 @@
+{
+    "name": "pedrosancao/php-random-data",
+    "description": "small library generates high entropy random data",
+    "keywords": ["security", "random", "high entropy"],
+    "homepage": "https://github.com/pedrosancao/php-random-data",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pedro Sanção",
+            "homepage": "http://pedrosancao.github.io"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": { "PedroSancao\\": "src/" }
+    }
+}

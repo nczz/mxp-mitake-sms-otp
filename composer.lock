@@ -1,0 +1,120 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "b043af38772f5cb61fbec9a87c24f437",
+    "packages": [
+        {
+            "name": "pedrosancao/php-otp",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pedrosancao/php-otp.git",
+                "reference": "27ec668fd66ad7df5138939e119ba86e71e5274d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pedrosancao/php-otp/zipball/27ec668fd66ad7df5138939e119ba86e71e5274d",
+                "reference": "27ec668fd66ad7df5138939e119ba86e71e5274d",
+                "shasum": ""
+            },
+            "require": {
+                "pedrosancao/php-random-data": "^1.0",
+                "php": ">=7.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PedroSancao\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pedro Sanção",
+                    "homepage": "http://pedrosancao.github.io"
+                }
+            ],
+            "description": "PHP implementation of HMAC-based one-time password algorithm according to RFC 4226 and RFC 6238 compatible with Google Authenticator",
+            "homepage": "https://github.com/pedrosancao/php-otp",
+            "keywords": [
+                "RFC 4226",
+                "RFC 6238",
+                "google authenticator",
+                "hotp",
+                "one-time password",
+                "otp",
+                "totp",
+                "two steps authentication"
+            ],
+            "support": {
+                "issues": "https://github.com/pedrosancao/php-otp/issues",
+                "source": "https://github.com/pedrosancao/php-otp/tree/v1.1.0"
+            },
+            "time": "2020-11-23T00:41:55+00:00"
+        },
+        {
+            "name": "pedrosancao/php-random-data",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pedrosancao/php-random-data.git",
+                "reference": "4d0e6f23b796de506e80242f2cb37cfbf5f549f3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pedrosancao/php-random-data/zipball/4d0e6f23b796de506e80242f2cb37cfbf5f549f3",
+                "reference": "4d0e6f23b796de506e80242f2cb37cfbf5f549f3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PedroSancao\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pedro Sanção",
+                    "homepage": "http://pedrosancao.github.io"
+                }
+            ],
+            "description": "small library generates high entropy random data",
+            "homepage": "https://github.com/pedrosancao/php-random-data",
+            "keywords": [
+                "high entropy",
+                "random",
+                "security"
+            ],
+            "support": {
+                "issues": "https://github.com/pedrosancao/php-random-data/issues",
+                "source": "https://github.com/pedrosancao/php-random-data/tree/master"
+            },
+            "time": "2018-09-09T19:54:04+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
